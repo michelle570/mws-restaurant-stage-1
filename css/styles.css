@@ -111,7 +111,7 @@ nav h1 a {
   background-color: #3397DB;
   align-items: center;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 .filter-options h2 {
   color: white;
@@ -119,6 +119,7 @@ nav h1 a {
   font-weight: normal;
   line-height: 1;
   margin: 0 20px;
+	text-align: right;
 }
 .filter-options select {
   background-color: white;
