@@ -309,7 +309,6 @@ nav h1 a {
 }
 
 #reviews-list li p:nth-child(2){
-	/* Add Color, Shadow & Right align */
 	color: #ccc;
   text-shadow: 1px 1px #000;
 	text-align: right;
