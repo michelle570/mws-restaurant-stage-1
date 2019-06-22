@@ -335,14 +335,27 @@ nav h1 a {
   color: #666;
 }
 
-@media screen and (max-width: 775px) {
-	#maincontent {
+/* @media screen and (max-width: 775px) { */
+@media screen and (max-width: 660px) {
+#maincontent {
 		background-color: red;
 	}
 #restaurants-list {
 	/* background-color: red; */
 	grid-template-columns: 1fr;
 
+}
+.filter-options {
+	grid-template-columns: 1fr;
+	height: 100%;
+}
+.filter-options h2 {
+	text-align: left;
+	padding: 10px 0px;
+}
+.filter-options select {
+	width: 93%;
+	margin: 0px 20px 10px;
 }
 	/* #restaurant-container, #reviews-container {
 		width: 100%;
