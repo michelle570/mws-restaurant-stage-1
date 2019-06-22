@@ -18,7 +18,7 @@ ul, li {
 	color: #333;
 }
 a {
-	color: orange;
+	color: #def;
 	text-decoration: none;
 }
 a:hover, a:focus {
@@ -43,7 +43,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 #footer {
   background-color: #444;
-  color: #aaa;
+  color: #ddd;
   font-size: 8pt;
   letter-spacing: 1px;
   padding: 25px;
@@ -333,7 +333,32 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+/* SKIP TO FILTERS adapted from https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/*/
+a.skip-main {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+}
+a.skip-main:focus, a.skip-main:active {
+    color: #fff;
+    background-color:#000;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow:auto;
+    margin: 10px 35%;
+    padding:5px;
+    text-align:center;
+    font-size:1.2em;
+    z-index:999;
+}
 
+/* MEDIA QUERIES */
 /* @media screen and (max-width: 775px) { */
 @media screen and (max-width: 660px) {
 #maincontent {
