@@ -246,6 +246,7 @@ nav h1 a {
   text-align: center;
   text-transform: uppercase;
 	width: 90%;
+	border-radius: 5px;
 }
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
@@ -298,6 +299,10 @@ nav h1 a {
 
 #reviews-list li p:nth-child(2){
 	/* Add Color, Shadow & Right align */
+	color: #ccc;
+  text-shadow: 1px 1px #000;
+	text-align: right;
+	padding-right: 20px;
 }
 
 #reviews-list li p:nth-child(3) {
