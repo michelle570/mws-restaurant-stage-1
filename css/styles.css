@@ -390,15 +390,17 @@ a.skip-main:focus, a.skip-main:active {
 
 /* @media screen and (min-width: 660px) { */
 @media screen and (min-width: 720px) {
-	#maincontent {
+	.inside	#maincontent {
 		display: grid;
 	 	grid-template-columns: 1fr 1fr;
 	}
+
 	.inside #map-container {
 	  grid-column: 2;
 	  grid-row: 1/3;
 		height: calc(100% - 195px);
 	}
+
 	#restaurant-container {
 		padding-top: 150px;
 	}
