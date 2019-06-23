@@ -111,7 +111,7 @@ nav h1 a {
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   width: 100%;
-  background-color: #3397DB;
+  background-color: #252831;
   align-items: center;
 	display: grid;
 	grid-template-columns: 1fr;
@@ -163,8 +163,7 @@ nav h1 a {
   background-color: #ccc;
   display: block;
   margin: 0;
-  max-width: 100%;
-  min-width: 100%;
+  width: 100%;
 	margin-bottom: 15px;
 }
 #restaurants-list li h1 {
@@ -307,7 +306,7 @@ nav h1 a {
 }
 
 #reviews-list li p:nth-child(3) {
-	background-color: #fea501;
+	background-color: #f58500;
 	display: inline-block;
 	padding: 5px 10px;
 	margin: 10px 20px;
@@ -379,7 +378,7 @@ a.skip-main:focus, a.skip-main:active {
 
 	/* HomePage Filter Options */
 	.filter-options {
-		height: 50px;
+		/* height: 50px; */
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	}
 	.filter-options h2 {
