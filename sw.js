@@ -1,3 +1,4 @@
+// Copied from Class Exercise and adapted for Project
 let staticCacheName = 'rest-static-v1';
 
 self.addEventListener('install', function(event) {
@@ -43,14 +44,6 @@ self.addEventListener('activate', function(event) {
 });
 
 self.addEventListener('fetch', function(event) {
-// var requestURL = new URL(event.request.url);
-//
-// if(requestURL.origin === location.origin) {
-//   if (requestURL.pathname === '/'){
-//     event.respondWith(caches.match('/skeleton'));
-//     return;
-//   }
-// }
 
   event.respondWith(
     caches.match(event.request).then(function(response) {
@@ -58,9 +51,3 @@ self.addEventListener('fetch', function(event) {
     })
   );
 });
-
-// self.addEventListener('message', function(event) {
-//   if (event.data.action === 'skipWaiting') {
-//     self.skipWaiting();
-//   }
-// });
