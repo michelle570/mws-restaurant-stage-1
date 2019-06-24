@@ -49,7 +49,6 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   text-transform: uppercase;
 }
 /* ====================== Navigation ====================== */
-/* nav, */
 header h1 {
   width: 100%;
   height: 80px;
@@ -59,10 +58,8 @@ header h1 {
 	z-index: 1004;
 	margin: 0;
 }
-/* nav h1 {
-  margin: auto;
-} */
-nav h1 a {
+
+h1 a {
   color: #fff;
   font-size: 14pt;
   font-weight: 200;
