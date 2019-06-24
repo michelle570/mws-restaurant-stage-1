@@ -166,8 +166,8 @@ h1 a {
   width: 100%;
 	margin-bottom: 15px;
 }
-#restaurants-list li h1 {
-  /* color: #f18200; */
+
+#restaurants-list li h2 {
 	color: #E65722;
   font-family: Arial,sans-serif;
   font-size: 14pt;
@@ -178,7 +178,7 @@ h1 a {
   text-transform: uppercase;
 }
 
-#restaurants-list li h1, #restaurants-list li p {
+#restaurants-list li h2, #restaurants-list li p {
 	margin: 0px 15px;
 }
 
@@ -265,8 +265,8 @@ h1 a {
 	box-sizing: border-box;
 }
 
-#reviews-container h2 {
-  /* color: #f58500; */
+/* #reviews-container h2 */
+#reviews-container h3 {
 	color: #E65722;
   font-size: 24pt;
   font-weight: 300;
